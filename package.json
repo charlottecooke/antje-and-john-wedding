@@ -1,0 +1,45 @@
+{
+    "name": "antje-and-john-wedding",
+    "version": "1.0.0",
+    "description": "A tiny website to serve the details of their wedding",
+    "main": "main.js",
+    "private": true,
+    "scripts": {
+        "transpile": "npx tsc -p ./tsconfig.json",
+        "build": "npm run -s transpile && npx nuxt build",
+        "start": "nodemon src/main.js --watch config",
+        "start:watch": "nodemon --exec 'npm run build && npm run start' -e ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/charlottecooke/antje-and-john-wedding.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/charlottecooke/antje-and-john-wedding#readme",
+    "devDependencies": {
+        "@types/body-parser": "^1.19.0",
+        "@types/bunyan": "^1.8.6",
+        "@types/config": "0.0.36",
+        "@types/node": "^13.7.0",
+        "node-sass": "^4.13.1",
+        "sass-loader": "^8.0.2",
+        "start-server-and-test": "^1.10.8",
+        "typescript": "^3.7.5"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "bunyan": "^1.8.12",
+        "config": "^3.2.5",
+        "express": "^4.17.1",
+        "http-status-codes": "^1.4.0",
+        "nodemon": "^2.0.2",
+        "normalize-scss": "^7.0.1",
+        "nuxt": "^2.12.1",
+        "nuxt-sass-resources-loader": "^2.0.5",
+        "vue": "^2.6.11",
+        "vue-router": "^3.1.6",
+        "vuex": "^3.1.3"
+    }
+}
