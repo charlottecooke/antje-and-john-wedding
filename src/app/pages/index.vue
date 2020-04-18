@@ -5,9 +5,6 @@
             <img class="main-image" alt="An image of Jon and Antje on the night of the proposal" src="../assets/images/jon-and-antje.jpg">
             <div class="h2">JON AND ANTJE</div>
         </div>
-        <p>Some more info in here</p>
-        <p>This is a great page</p>
-
     </main>
 </template>
 
@@ -27,6 +24,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 86vh;
 
   .container-for-image {
     position: relative;
