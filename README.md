@@ -1,4 +1,4 @@
-# antje-and-john-wedding
+# antje-and-jon-wedding
 
 A little website experiment for Antje and John's wedding!
 
