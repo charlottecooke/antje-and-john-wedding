@@ -10,7 +10,6 @@
         </ul>
       </header>
       <nuxt/>
-      <!-- Do we even need this? -->
       <footer class="footer-layout">
         <hr>
         <p class="footer-text">Made by Charlotte Cooke - holla at your girl </p>

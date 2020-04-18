@@ -1,2 +1,1 @@
-Do we want to be doing not having the words on the front?
-Is that for security?
+<!-- this will have the internationalisation (eventually) -->
