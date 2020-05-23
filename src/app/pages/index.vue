@@ -33,7 +33,7 @@ main {
   }
 
   .main-image {
-      height: 1100px;
+      height: 100vh;
       opacity: 0.7;
   }
 
