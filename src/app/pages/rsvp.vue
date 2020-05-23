@@ -1,5 +1,7 @@
 <template>
     <main>
+
+        <!-- I now think this may not be possible! It's going to be so heavy weight :/ -->
         <div class="layout">
             <h1 class="rsvp-title">RSVP</h1>
             <p>Please let us know by the 6th of June</p>

@@ -64,6 +64,8 @@ hr {
   position: absolute;
   width: 100%;
   height: 4rem;
+  bottom: 0;
+  background: white;
 }
 
 .footer-text {
